@@ -4,9 +4,9 @@ import urllib, cStringIO
 file = cStringIO.StringIO(urllib.urlopen(URL).read())
 img = Image.open(file)
 
-subscription_key = "d2cb2bb957de407082bc450157ab797a"
+subscription_key = "#############################"
 assert subscription_key
-vision_base_url = "https://westcentralus.api.cognitive.microsoft.com/vision/v1.0"
+vision_base_url = "###############################"
 ocr_url = vision_base_url + "/ocr"
 import requests
 headers  = {'Ocp-Apim-Subscription-Key': subscription_key }
